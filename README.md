@@ -42,3 +42,7 @@ This project implements the three required tiers of the RISC-V Mentorship Coding
 
 Clone the repository and install dependencies.
 # riscv-instruction-set-explorer
+
+## Sample Output
+
+A representative CLI transcript is available in [sample_output.txt](sample_output.txt).

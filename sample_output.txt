@@ -1,0 +1,25 @@
+RISC-V Instruction Set Explorer
+Analyzing RISC-V Instructions and ISA Documentation
+
+TIER 1: INSTRUCTION SET PARSING
+Using cached instruction dictionary: data/instr_dict.json
+Parsed 1188 instructions across 114 extensions
+
+INSTRUCTION SET SUMMARY TABLE
+Total Extensions: 114
+Total Instructions: 1188
+Multi-Extension Instructions: 73
+
+TIER 2: CROSS-REFERENCE WITH ISA MANUAL
+Manual repository already exists at data/riscv-isa-manual
+Scanning manual directory: data/riscv-isa-manual/src
+
+CROSS-REFERENCE REPORT: instr_dict.json vs ISA Manual
+SUMMARY: 57 matched, 28 in JSON only, 104 in manual only
+
+TIER 3 BONUS: VISUALIZATION
+Exported Graphviz DOT to data/extension_graph.dot
+Exported adjacency matrix to data/extension_adjacency.csv
+
+ANALYSIS COMPLETE
+Output files saved in: ./data/
